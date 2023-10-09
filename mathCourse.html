@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/html_5_logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/ef5f7eeff6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <title> Experimento </title>
 </head>
@@ -31,32 +34,273 @@
         </div>
     </header>
     <main>
-        <!-- <div style="display: flex; word-wrap: unset;"> -->
-            <h2 style="text-align: center; margin-bottom: 10px;">Math Course</h2>
-            <div style="display: flex; justify-content: center; margin-left: 15px;">
-                Explora el Mundo de las Matemáticas
-                Descripción:
-
-                ¡Bienvenidos al Micro Curso de Matemáticas para Alumnos del Séptimo Grado! Sumérgete en el emocionante universo de las matemáticas y descubre cómo esta disciplina no solo es fundamental en el aula, ¡sino también en la vida cotidiana!
-
-                ¿Qué Aprenderás?
-
-                - Comprenderás la importancia de las matemáticas en tu vida diaria y en tu futuro.
-                - Explorarás conceptos matemáticos clave de una manera fácil de entender.
-                - Desarrollarás habilidades de resolución de problemas que te serán útiles en todos los aspectos de tu vida.
-                - Conocerás aplicaciones emocionantes de las matemáticas en la tecnología y la ciencia.
-
-                ¿Para Quién es Este Curso?
-
-                Este micro curso está diseñado especialmente para estudiantes de séptimo grado que desean fortalecer sus habilidades matemáticas y apreciar el mundo que se abre cuando dominas esta materia.
-
-                ¿Por Qué Deberías Unirte?
-
-                - Aprenderás de forma interactiva con ejemplos prácticos y actividades estimulantes.
-                - Tendrás acceso a recursos adicionales y apoyo para tu aprendizaje.
-                - Mejorarás tus habilidades matemáticas y tu confianza en esta materia.
+        <div class="container">
+            <h2 style="color: #642a73; text-align: center; font-weight: bold;">Math Course</h2>
+            <div class="row">
+                <div class="col">
+                    <div style="background-color: #F3F3F5; border-radius: 10px; display: flex; justify-content: center;">
+                        <img style="width: 90%; height:100%;" src="./img/math.jpeg" class="img-fluid" alt="Logo">
+                    </div>
+                </div>
+                <div class="col" style="text-align: justify;"> 
+                    <h5>Explora el Mundo de las Matemáticas</h5>
+                    <p>Descripción:</p>
+                    <p>¡Bienvenidos al Micro Curso de Matemáticas para Alumnos del Séptimo Grado! Sumérgete en el emocionante universo de las matemáticas y descubre cómo esta disciplina no solo es fundamental en el aula, ¡sino también en la vida cotidiana!</p>
+                    <h6>¿Qué Aprenderás?</h6>
+                    <ul>
+                        <li>Comprenderás la importancia de las matemáticas en tu vida diaria y en tu futuro.</li>
+                        <li>Explorarás conceptos matemáticos clave de una manera fácil de entender.</li>
+                        <li>Desarrollarás habilidades de resolución de problemas que te serán útiles en todos los aspectos de tu vida.</li>
+                        <li>Conocerás aplicaciones emocionantes de las matemáticas en la tecnología y la ciencia.</li>
+                    </ul>
+                    <h6>¿Para Quién es Este Curso?</h6>
+                    <p>Este micro curso está diseñado especialmente para estudiantes de séptimo grado que desean fortalecer sus habilidades matemáticas y apreciar el mundo que se abre cuando dominas esta materia.</p>
+                    <h6>¿Por Qué Deberías Unirte?</h6>
+                    <ul>
+                        <li>Aprenderás de forma interactiva con ejemplos prácticos y actividades estimulantes.</li>
+                        <li>Tendrás acceso a recursos adicionales y apoyo para tu aprendizaje.</li>
+                        <li>Mejorarás tus habilidades matemáticas y tu confianza en esta materia.</li>
+                    </ul>
+                </div>
             </div>
-        <!-- </div> -->
+            <h2 style="color: #642a73; text-align: center; font-weight: bold;">Contenido del Curso</h2>
+            <div class="container text-center">
+                <div  style="font-size: 20px;" class="row">
+                  <div class="col">
+                    <i class="fa-regular fa-clock"></i>    
+                    <span> 1 Hora</span>
+                  </div>
+                  <div class="col">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    <span> 3 Modulos</span>
+                  </div>
+                  <div class="col">
+                    <i class="fa-regular fa-file-lines"></i>
+                    <span>3 Evaluaciones</span>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion" style="margin-top: 10px;" id="accordionPadre">
+                <!-- Introducción a la Matemática -->	
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Introducción a la Matemática
+                        </button>
+                    </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionPadre">
+                        <div class="accordion-body">
+                            <div class="accordion" id="accordionInformacionIntroduccion">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionIntroduccion" aria-expanded="true" aria-controls="collapseInformacionIntroduccion">
+                                    Informacion
+                                </button>
+                                </h2>
+                                <div id="collapseInformacionIntroduccion" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionIntroduccion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div>
+                                                    <img style="width: 80%; height: 800px;" src="./img/informacion/Informacion.jpg" class="img-fluid" alt="informacion">
+                                                </div>
+                                            </div>
+                                            <div class="col" style="text-align: justify;"> 
+                                                Innovación: Es un proceso que implica un cambio en la enseñanza y se basa en cuatro elementos fundamentales: las personas, el conocimiento, los procesos y la tecnología. Si no se consideran los cuatro elementos conjuntamente es probable que la innovación educativa no tenga el éxito esperado. 
+                                                Tendencias
+                                                En la innovación educativa podemos diferenciar varias tendencias, entre las que podemos destacar las siguientes: 
+                                                Gamificación. No hay nada mejor que aprender jugando. La gamificación consiste en utilizar juegos para enseñar y potenciar la motivación de los alumnos. De esta forma se logra que el aprendizaje sea una experiencia positiva y motivadora. Se pueden, por ejemplo, establecer retos para los niños y niñas, con premios o puntuaciones para lograr una recompensa. También se pueden utilizar videojuegos con fines pedagógicos.
+                                                Pedagogía inversa. Tal y como decíamos antes, uno de los factores más importantes de la innovación educativa es el cambio de roles de profesores y alumnos de manera que estos últimos participen de forma activa en su propio proceso de aprendizaje. Por una parte, algunos ejercicios que anteriormente se realizaban en clase se pueden hacer en casa con soportes audiovisuales y, por otro lado, en clase se pueden plantear retos que los alumnos deban trabajar en grupo o individualmente para aprender. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="accordion" id="accordionVideosIntroduccion">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideosIntroduccion" aria-expanded="true" aria-controls="collapseVideosIntroduccion">
+                                    Videos 
+                                </button>
+                                </h2>
+                                <div id="collapseVideosIntroduccion" class="accordion-collapse collapse" data-bs-parent="#accordionVideosIntroduccion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <iframe width="100%" height="350" src="https://www.youtube.com/embed/4pB_ki1EmNc" title="Innovación Educativa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>  
+                            </div>	  
+                            <div class="accordion" id="accordionEvaluacionIntroduccion">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionIntroduccion" aria-expanded="true" aria-controls="collapseEvaluacionIntroduccion">
+                                        Evaluaciones 
+                                    </button>
+                                </h2>
+                                <div id="collapseEvaluacionIntroduccion" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionIntroduccion">
+                                    <div class="accordion-body">
+                                        <a href="https://forms.gle/2PcEsxCbu97QZowd9"> Evaluación</a>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Matemática 1 -->	
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Matemática 1
+                        </button>
+                    </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPadre">
+                        <div class="accordion-body">
+                            <div class="accordion" id="accordionInformacionKahook">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionKahook" aria-expanded="true" aria-controls="collapseInformacionKahook">
+                                    Informacion
+                                </button>
+                                </h2>
+                                <div id="collapseInformacionKahook" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionKahook">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img style="width: 80%; height: 800px;" src="./img/informacion/kahoot.jpg" class="img-fluid" alt="informacion">
+                                            
+                                            </div>
+                                            <div class="col" style="text-align: justify;"> 
+                                                Kahoot:
+                                                Kahoot! es una plataforma basada en juegos de preguntas que se aloja en la nube; ideal para fomentar el aprendizaje online. La plataforma permite crear cuestionarios desde cero, lo que posibilita las opciones de aprendizaje creativas hechas a medida y lo convierte en una herramienta muy útil para la enseñanza virtual.
+                                                Una de las principales ventajas, y por la que está adquiriendo cada vez más popularidad en las aulas virtuales, es que Kahoot es gratuito. Solo es necesario crear una cuenta y tener conexión a internet para empezar a utilizarlo. Además, su diseño responsive permite su uso en la mayoría de los dispositivos, incluidos ordenadores, tablets y smartphones, con versiones disponibles tanto para iOS, Android o web.
+                                                Tipos de Preguntas
+                                                Quiz
+                                                Verdadero o falso
+                                                Respuesta corta (disponible en algunos planes)
+                                                Puzzle (disponible en algunos planes)
+                                                Quiz + Audio (disponible en algunos planes)
+                                                Control deslizante (disponible en algunos planes)
+                                                Recopilación de opiniones
+                                                Encuesta (disponible en algunos planes)
+                                                Nube de palabras (disponible en algunos planes)
+                                                Pregunta abierta (disponible en algunos planes)
+                                                Lluvia de ideas (disponible en algunos planes)
+                                                Coloca el pin (disponible en algunos planes)
+                                                Añadir diapositivas
+                                                Diapositiva (disponible en algunos planes)
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="accordion" id="accordionVideosKahook">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapeseVideosKahook" aria-expanded="true" aria-controls="collapeseVideosKahook">
+                                    Videos 
+                                </button>
+                                </h2>
+                                <div id="collapeseVideosKahook" class="accordion-collapse collapse" data-bs-parent="#accordionVideosKahook">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <iframe width="100%" height="350" src="https://www.youtube.com/embed/rpHw_JCSrC0" title="Descubre cómo crear un KAHOOT 👉 crea QUIZS interactivos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col"> 
+                                                <iframe width="100%" height="350" src="https://www.youtube.com/embed/OFI3QZrBZd0" title="Tutorial KAHOOT sencillo para profesores desde 0 👨‍🏫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                      
+                                            </div>
+                                            <div class="col"> 
+                                                <iframe width="100%" height="350" src="https://www.youtube.com/embed/OFI3QZrBZd0" title="Tutorial KAHOOT sencillo para profesores desde 0 👨‍🏫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                      
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>  
+                            </div>	  
+                            <div class="accordion" id="accordionEvaluacionKahook">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionKahook" aria-expanded="true" aria-controls="collapseEvaluacionKahook">
+                                        Evaluaciones 
+                                    </button>
+                                </h2>
+                                <div id="collapseEvaluacionKahook" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionKahook">
+                                    <div class="accordion-body">
+                                        <a href="https://forms.gle/eWX5pKJozonAWe9o6">Evaluación</a>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Matemática 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Matemática 2
+                        </button>
+                    </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPadre">
+                        <div class="accordion-body">
+                            <div class="accordion" id="accordionInformacionTomiDigital">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionTomiDigital" aria-expanded="true" aria-controls="collapseInformacionTomiDigital">
+                                    Informacion
+                                </button>
+                                </h2>
+                                <div id="collapseInformacionTomiDigital" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionTomiDigital">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img style="width: 80%; height: 800px;" src="./img/informacion/TomiDigital.jpg" class="img-fluid" alt="informacion">
+                                            </div>
+                                            <div class="col" style="text-align: justify;"> 
+                                                Es una aplicación que permite a los Maestros crear clases interactivas y motivadoras, para usar con sus alumnos en forma presencial o remota, con o sin internet y que además cuenta con un módulo de Gestión Áulica.
+                                                Para Crear las clases el Docente cuenta con una gran cantidad de Herramientas como ser Encuestas, Tormentas de Ideas Digitales, Participación Aleatoria y elementos para crear Desafíos Gamificados super atrapantes.
+                                                Ventajas: 
+                                                Entre las principales ventajas de Tomi Digital tenemos:
+                                                Toda la infraestructura base que brinda es gratuita.
+                                                Es una plataforma muy fácil de utilizar y con una interfaz muy moderna
+                                                También ofrece la posibilidad de tomar materiales de otros profesores para tenerlos como base para dar clases a nuestros alumnos
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="accordion" id="accordionVideosTomiDigital">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideosTomiDigital" aria-expanded="true" aria-controls="collapseVideosTomiDigital">
+                                    Videos 
+                                </button>
+                                </h2>
+                                <div id="collapseVideosTomiDigital" class="accordion-collapse collapse" data-bs-parent="#accordionVideosTomiDigital">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <iframe width="100%" height="350" src="https://www.youtube.com/embed/1niZYzWarY4" title="TOMI digital Tutorial para maestros" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col"> 
+                                                <iframe width="100%" height="350" src="https://www.youtube.com/embed/_-SuHHWmO20" title="Cómo crear una actividad desde 0 en TOMi Digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                     
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>  
+                            </div>	  
+                            <div class="accordion" id="accordionEvaluacionTomiDigital">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionTomiDigital" aria-expanded="true" aria-controls="collapseEvaluacionTomiDigital">
+                                        Evaluaciones 
+                                    </button>
+                                </h2>
+                                <div id="collapseEvaluacionTomiDigital" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionTomiDigital">
+                                    <div class="accordion-body">
+                                        <a href="https://forms.gle/SLGsAeKqvw8nPjjM6">Evaluación</a>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        </div>
     </main>
     <footer>
         <div class="contenedor-foot">
