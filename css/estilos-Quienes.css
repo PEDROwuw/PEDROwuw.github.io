@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    margin-left: 0.01%;
+    line-height: 80px;
+}
+.logo a{
+    color:white;
+    font-size:30px;
+}
+
+.logo img{
+    width: 100px;
+    height: 85px;
+}
+
+nav ul{
+    float:right;
+    margin-right:5%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-left:10px;
+}
+nav ul li > a{
+    color: white;
+    font-size:20px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+
+.title{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.575), hsla(219, 11%, 24%, 0.555)), url(../img/fondo.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.575), hsla(219, 11%, 24%, 0.555)), url(../img/fondo.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+
+header .cabezera{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cabezera h1{
+    font-style: 50px;
+    color: #fff;
+}
+
+.cabezera h2{
+    font-style: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container-about{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about{
+    width: 50%;
+    border-radius: 15px;
+}
+
+.about-us .container-text{
+    width: 48%;
+}
+
+.container-text {
+    margin-bottom: 15px;
+}
+
+.container-text h3 span{
+    background: #4d0686;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.container-text h3{
+    padding: 0 0 30px 15px;
+    font-weight: 150;
+    text-align: justify;
+    font-size: larger;
+}
+
+
+.courses-container .cards{
+    width: 240px;
+    background:#fff;
+    font-family: sans-serif;
+    padding:16px;
+    box-shadow: 0 9px 17px -6px rgba(0,0,0,0.2);
+    position: relative;
+    transition: all 400ms ease;
+}   
+.courses-container .cards:hover{
+    transform: scale(1.03);
+}
+.courses-container,
+.courses-container *{
+    box-sizing: border-box;
+}
+.courses-container .cards a{
+    text-decoration: none;
+    color:#14213d;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.courses-container .cards img{
+    margin:-16px;
+    object-fit: cover;
+}
+.courses-container .cards .category{
+    position: absolute;
+    top:8px;
+    right:8px;
+    background: #14213d;
+    color:#fff;
+    padding:2px 16px;
+    font-size:13px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.courses-container .cards h2.title{
+    font-size: 20px;
+    margin:28px 0 10px 0;
+    line-height: 1.4;
+}
+
+.courses-container .cards .description{
+    font-size: 15px;
+    color:#333;
+    margin:0;
+    line-height: 1.7;
+}
+.courses-container .cards .info{
+    display: flex;
+    justify-content: space-between;
+    background: #edf6f9;
+    margin:-16px;
+    margin-top: 20px;
+    padding:12px 16px;
+    align-items: center;
+}
+.courses-container .cards .info .price{
+    font-size:28px;
+    font-weight: 900;
+    color:#df0688;
+}
+
+.courses-container .cards .info .price::before{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.courses-container .cards .info .duration{
+    display: flex;
+}
+.courses-container .cards .info .time-icon{
+    width: 18px;
+    height: 18px;
+    
+}
+.courses-container .cards .info .duration::after{
+    content:"h";
+    margin-left: 4px;
+}
+
+.courses-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap:32px;
+    max-width: 800px;
+    margin:20px auto;
+}
+
+
+
+@media (max-width: 850px){
+    .courses-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .courses-container .cards {
+        width: 100%;
+    }
+
+    .courses-container .cards img{
+        height: 200px;
+    }
+}
+@media (max-width:600px){
+    .courses-container{
+        grid-template-columns: 1fr;
+        max-width: 320px;
+    }
+}
+.MCtitle {
+    display: inline-block;
+    position: relative;
+    color:black;
+}
+
+.MCtitle::after, .MCtitle::before{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top:0.6em;
+}
+
+.MCtitle::before{
+    left:-140px;
+}
+
+.MCtitle::after{
+    right:-140px;
+}
+.centrar-titulo{
+    text-align: center;
+}
+
+.about-service{
+    background-color: #f2f2f2;
+
+}
+
+.servicio-cont{
+    text-align: center;
+
+}
+
+.servicio-ind {
+    padding-left:150px;
+    padding-right:150px;
+}
+
+
+
+.servicio-ind h3{
+    margin: 0px 0px 0px 0px;
+}
+
+footer{
+    background-color: #414141;
+    padding:60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-foot{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contain-foot{
+    text-align: center;
+}
+
+.contain-foot h4{
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contain-foot p{
+    color: grey;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797
+}
