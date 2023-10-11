@@ -2,10 +2,13 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/html_5_logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title> Experimento </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/ef5f7eeff6.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="img/walt.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/estilos.css">
+    <title> WALT - OneSttudies </title>
 </head>
 <body>
     <header>
@@ -31,33 +34,587 @@
         </div>
     </header>
     <main>
-        <!-- <div style="display: flex; word-wrap: unset;"> -->
-            <h2 style="text-align: center; margin-bottom: 10px;">Tecnica de Estudio</h2>
-            <div style="display: flex; justify-content: center; margin-left: 15px;">
-                ¿Quieres desbloquear todo tu potencial  de aprendizaje?
-                ¿Deseas descubrir nuevas estrategias efectivas para estudiar de manera más inteligente y no más complicada?
-                Te damos la buenvenida a "OneStudies", tu fuente definitiva para las Técnicas de Estudio. 
-                Estamos comprometidos en ayudarte a mejorar tus habilidades de estudios y alcanzar tus metas académicas, ofreciendote una solución definitiva a tus problemas con el estudio  proporcionandote los materiales necesarios para cumplir con nuestro propósito.
-                Únete a nosotros en esta emocionante aventura de aprendizaje mientras exploramos diferentes métodos y descubrimos estrategias para ayudarte a alcanzar tu máximo potencial como estudiante.
-            </div>
+         <!-- <div style="display: flex; word-wrap: unset;"> -->
+            <div class="container">
+				<h2 style="color: #642a73; text-align: center; font-weight: bold;">OneStudies</h2>
+				<div class="row">
+					<div class="col">
+						<div style="background-color: #F3F3F5; border-radius: 10px; display: flex; justify-content: center;">
+							<img style="width: 90%; height:100%;" src="./img/infostudies/banner.jpg" class="img-fluid" alt="Logo">
+						</div>
+					</div>
+					<div class="col" style="text-align: justify;"> 
+                        ¿Quieres desbloquear todo tu potencial  de aprendizaje?
+                        ¿Deseas descubrir nuevas estrategias efectivas para estudiar de manera más inteligente y no más complicada?
+                        Te damos la buenvenida a "OneStudies", tu fuente definitiva para las Técnicas de Estudio. 
+                        Estamos comprometidos en ayudarte a mejorar tus habilidades de estudios y alcanzar tus metas académicas, ofreciendote una solución definitiva a tus problemas con el estudio  proporcionandote los materiales necesarios para cumplir con nuestro propósito.
+                        Únete a nosotros en esta emocionante aventura de aprendizaje mientras exploramos diferentes métodos y descubrimos estrategias para ayudarte a alcanzar tu máximo potencial como estudiante.
+
+					</div>
+				</div>
         <!-- </div> -->
+        <h2 style="color: #642a73; text-align: center; font-weight: bold;">Contenido del Curso</h2>
+				
+        <div class="container text-center">
+            <div  style="font-size: 20px;" class="row">
+              <div class="col">
+                <i class="fa-regular fa-clock"></i>    
+                <span> 2 Horas</span>
+              </div>
+              <div class="col">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <span> 5 Modulos</span>
+              </div>
+              <div class="col">
+                <i class="fa-regular fa-file-lines"></i>
+                <span>5 Evaluaciones</span>
+              </div>
+            </div>
+        </div>
+        <div class="accordion" style="margin-top: 10px;" id="accordionPadre">
+            <!-- MODULO 1-->	
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Técnicas de Estudio con “OneStudies”
+                    </button>
+                </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionPadre">
+                    <div class="accordion-body">
+                        <div class="accordion" id="accordionInformacionIntroduccion">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionIntroduccion" aria-expanded="true" aria-controls="collapseInformacionIntroduccion">
+                                Informacion
+                            </button>
+                            </h2>
+                            <div id="collapseInformacionIntroduccion" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionIntroduccion">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div>
+                                                <img style="width: 80%; height: 800px;" src="./img/infostudies/modulo 1.jpg" class="img-fluid" alt="informacion">
+                                            </div>
+                                        </div>
+                                        <div class="col" style="text-align: justify;"> 
+                                           <b><u> Bienvenido a “OneStudies”, el Microcurso que te guiará en el proceso de “aprender para aprender” correctamente.</u></b><br>
+	                                        En OneStudies, nuestro objetivo principal es ayudarte a descubrir las mejores técnicas y estrategias para aprender de manera efectiva y eficiente. Sabemos que aprender a aprender es una habilidad fundamental en un mundo en constante evolución, y estamos comprometidos a brindarte las herramientas necesarias con las que podrás adquirir nuevos conocimientos de manera más rápida y efectiva.
+                                            A lo largo de este microcurso, exploraremos diversas técnicas de estudio, consejos para mejorar tu memoria, métodos para organizar la información y estrategias para mantener la motivación a lo largo de tu viaje de aprendizaje. Ya sea que estés estudiando para un examen, aprendiendo una nueva habilidad o buscando expandir tus horizontes intelectuales, OneStudies está aquí para acompañarte en cada paso del camino.
+                                            En las próximas lecciones, te presentaremos los conceptos clave que te ayudarán a convertirte en un aprendiz más efectivo y autónomo. Desde la planificación de tus estudios hasta la consolidación de la información, estamos aquí para asegurarnos de que aproveches al máximo tu tiempo y esfuerzo.
+                                            Así que, ¿estás listo para embarcarte en este emocionante viaje de aprendizaje?<br>
+                                            <b>¡Comencemos!</b> <br>
+                                            Los conceptos básicos para entender de qué trata el Microcurso lo puedes leer a continuación: <br>
+                                            <b>¿Qué son las técnicas de estudio?</b> <br>
+                                            Las Técnicas de Estudio consisten en una serie de métodos que se aplican al momento de estudiar, cuyo fin es facilitar la concentración del estudiante durante el proceso de aprendizaje.
+                                            En resumen, las Técnicas de Estudio son herramientas clave que ayudan a los estudiantes a aprovechar al máximo su tiempo de estudio y a desarrollar habilidades de aprendizaje efectivas.<br>
+                                            <b>Importancia de las técnicas de estudio</b> <br> 
+                                            Las Técnicas de Estudio son importantes, ya que estas nos permiten corregir los malos hábitos de estudio que un estudiante tiene y también nos ayuda a mejorar nuestro rendimiento académico.
+                                            Y también, son de gran ayuda para estimular nuestras mentes y poder desarrollar memoria a futuro. Debido a eso, son herramientas valiosas que cualquier estudiante debería de conocer.<br>
+                                            <b><u>Beneficios que trae implementar las técnicas de estudios a tus hábitos como estudiante: </u></b>
+                                            <b>1. Mejor aprovechamiento del tiempo</b><br>
+                                            Una vez encontrada la mejor técnica que se adapte a ti y a tu forma de estudiar, aumenta tanto la atención como la concentración, lo que nos lleva a un mejor uso del tiempo.<br>
+                                           <b>2. Aumenta la autoestima y la motivación por el estudio</b> <br>
+                                            Al sentir que estás sentado estudiando el tiempo indispensable haciendo todo lo que te piden y además teniendo tiempo libre y yendo bien preparado a clase o a los exámenes, hará que te sientas mucho más seguro y estarás más motivado.<br>
+                                           <b>3. Mejorará tus notas</b> <br>
+                                            El hábito es la clave. No es veloz como en el momento de implementar las técnicas de estudio y ver los resultados de forma rápida. Pero sí que al cabo de un  tiempo que hayas incorporado ciertas técnicas que se adapten a tu manera de estudiar, tiene como efectos los resultados deseados.<br>
+                                           <b> 4. Automatizará tu manera de estudiar</b> <br>
+                                            Cuando tengas claridad cuáles son los métodos que te resulta para cada asignatura, ya sea este un mapa mental, flash cards, formularios, o lo que elijas implementar, todo te resultará más fácil y rápido
+
+
+                                            
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="accordion" id="accordionVideosIntroduccion">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideosIntroduccion" aria-expanded="true" aria-controls="collapseVideosIntroduccion">
+                                Videos 
+                            </button>
+                            </h2>
+                            <div id="collapseVideosIntroduccion" class="accordion-collapse collapse" data-bs-parent="#accordionVideosIntroduccion">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/-fa8fVp4U_E" title="Canva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	
+                                        </div>
+
+                                    </div>
+                                </div>  
+                            </div>  
+                        </div>	  
+                        <div class="accordion" id="accordionEvaluacionIntroduccion">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionIntroduccion" aria-expanded="true" aria-controls="collapseEvaluacionIntroduccion">
+                                    Evaluaciones 
+                                </button>
+                            </h2>
+                            <div id="collapseEvaluacionIntroduccion" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionIntroduccion">
+                                <div class="accordion-body">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjzpGEhJYQ8USRIMLYXXD8RpHH3tXLHs6-06QOmosZ8RXJ9Q/viewform?usp=sharing"> Evaluación</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Planificación, Organización de Actividades  y Gestión del Tiempo -->	
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Planificación, Organización de Actividades  y Gestión del Tiempo
+                    </button>
+                </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPadre">
+                    <div class="accordion-body">
+                        <div class="accordion" id="accordionInformacionKahook">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionKahook" aria-expanded="true" aria-controls="collapseInformacionKahook">
+                                Informacion
+                            </button>
+                            </h2>
+                            <div id="collapseInformacionKahook" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionKahook">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img style="width: 80%; height: 800px;" src="./img/infostudies/modulo 2.jpg" class="img-fluid" alt="informacion">
+                                        
+                                        </div>
+                                        <div class="col" style="text-align: justify;"> 
+
+    
+                                            <h1>Planificación de Estudios</h1> <br>
+                                            <b>Cómo crear un horario de estudio efectivo</b> <br>
+                                            Antes de empezar a definir tu plan de estudio, es necesarios que establezcas los objetivos de aprendizaje que quieras lograr. Ten metas  medibles, considerando todas las actividades que realizas en el día a día como deportes o pasar el rato con familiares y amigos, incluso las actividades fundamentales como comer y dormir. 
+                                            Una vez hayas definido esos horarios, fija el horario que dedicarás al estudio, estableciendo el horario diario o semanal que le darás al contenido que quieres aprender. Recuerda que, aunque el plan de estudio debe ser flexible, el objetivo es cumplirlo lo máximo posible.  Debes tener en cuenta que, por mucho que el horario de estudio sea flexible, lo ideal es cumplirlo a cabalidad.
+                                             Algunos métodos de gestión del tiempo, como la técnica Pomodoro, que tratan de dividir el tiempo en intervalos de actividad y descanso, pueden ayudarte a aumentar la productividad.
+                                            Por último mantén tu horario actualizado, siendo realistas, el primer horario que implementes, no tiene que ser el definitivo, tú lo irás que ajustando en base a las necesidades que quieres cubrir, todo depende del contenido y el nivel de dificultad.
+                                            Una vez tengas tu horario creado y  planificado, ya puedes empezar a estudiar de forma- más organizada y productiva <br>
+                                            <b>Técnica Pomodoro:</b> <br>
+                                            El método Pomodoro para mejorar la concentración y la productividad.
+                                            El método del Pomodoro lo que propone es dividir el tiempo de estudio en períodos de tiempo reducido, pero intensa, seguida de descansos cortos que hace que el proceso de realizar la sea tarea mucho más práctica.
+                                            Gracias a este método, conseguirás mantener tu cerebro relajado facilitando la concentración durante los períodos de estudio.<br>
+                                            
+                                            <u>Para implementar el método de  Pomodoro sigue estas instrucciones:</u>
+                                            <ol_>
+                                            <li>Identificar las tareas y priorizarlas. <br> </li>
+                                            <li>Pon en el temporizador para poder estudiar por 25 minutos y date un descanso de 5 minutos cuando acabes.<br></li> 
+                                            <li>Realiza la tarea sin distracciones de ningún tipo.<br></li>
+                                            <li>Cada 4 “pomodoros” descansa 15 o 20 minutos.<br></li>
+                                            </ol_>
+                                            <b> Es importante que para éste método como en los demás seas constante, para poder hacer tu estudio de manera  ágil te damos estos consejos:</b><br>
+                                            Ten un orden de prioridad en las tareas que vas a realizar.<br>
+                                            Respeta el tiempo del cronómetro y trata de cumplirlo, así éste se vuelve un hábito sano de estudio<br> 
+                                            Ahora te recomendaremos algunas apps o páginas web que te pueden ser útiles a la hora de querer implementar este método:<br>
+                                            •	<b>Notion (Pomodoro widget):</b> este puedes usarlo en el buscador o como App para Android, Iphone, Ipad, Windows Pc.<br>
+                                            •	<b>FOCUS TO-DO:</b> Disponible para Android y IOS Es una aplicación que combina el temporizador Pomodoro con la gestión de tareas  que te va a motivar a mantenerte enfocado y lograr completar tus objetivos de estudio.<br>
+                                            •	<b>Pomodoro Cat:</b> puedes usarlo en el buscador, puedes configurar el temporizador, los colores de la página, así también las horas de descanso.<br>
+                                            •	<b>LifeAt Spaces (Lifeat.io):</b> Puedes usarla en el buscador o como app para Windows y MAC<br>
+                                            
+                                            <b>Matriz de Eisenhower:</b> <br>
+                                            Cómo priorizar tareas y eliminar la procrastinación.<br>
+                                            Ésta es una herramienta de gestión de tiempo, que va de acuerdo a su importancia y urgencia<br>
+                                            <b>Aquí te va un hack para que puedas categorizar tus pendientes:</b> <br>
+                                            Una que establezcas tus listas de pendientes, vas a realizar un cuadro, el mismo lo partirás en cuatro.
+                                            En el eje vertical vamos a escribir “importante” y el eje horizontal “urgente”, así tendríamos a lo más “importante” en el cuadro de arriba, y a los más “urgente” en el cuadro de la derecha. Iremos “evaluando” las tareas y clasificándolas según la prioridad de contenido que contengan justo así:<br>
+                                            •	En la primera categoría  consideraremos lo  “importante y urgente”, estas mismas las debes realizar de manera inmediata y será la prioridad uno,  anota los pendientes correspondientes.<br>
+                                            •	En la segunda categoría se encuentra lo “urgente pero no importante”, esta tarea la vas a delegar y será la prioridad dos, anota los pendientes que corresponda.<br>
+                                            •	En la tercera categoría se anota lo que es “importante pero no urgente”, estos pendientes lo vamos a agendar y será la prioridad 3.<br>
+                                            •	Finalmente se encuentra la categoría cuatro, las tareas que no son “importantes ni  urgentes”, estos los puedes hacer más tarde o simplemente eliminarlos, ya dependerá, este será la prioridad 4.<br>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="accordion" id="accordionVideosKahook">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapeseVideosKahook" aria-expanded="true" aria-controls="collapeseVideosKahook">
+                                Videos 
+                            </button>
+                            </h2>
+                            <div id="collapeseVideosKahook" class="accordion-collapse collapse" data-bs-parent="#accordionVideosKahook">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/2vXB24qZeIs" title="Como crear un logo con canva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+    
+                                    </div>
+                                </div>  
+                            </div>  
+                        </div>	  
+                        <div class="accordion" id="accordionEvaluacionKahook">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionKahook" aria-expanded="true" aria-controls="collapseEvaluacionKahook">
+                                    Evaluaciones 
+                                </button>
+                            </h2>
+                            <div id="collapseEvaluacionKahook" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionKahook">
+                                <div class="accordion-body">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScTbNW190HdDgNP37Bn56xzz-ACO_2NR94_ibnxZd1Phs5VWw/viewform?usp=sharing">Evaluación</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Toma de apuntes y subrayado-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        Toma de apuntes y subrayado
+                    </button>
+                </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPadre">
+                    <div class="accordion-body">
+                        <div class="accordion" id="accordionInformacionTomiDigital">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionTomiDigital" aria-expanded="true" aria-controls="collapseInformacionTomiDigital">
+                                Informacion
+                            </button>
+                            </h2>
+                            <div id="collapseInformacionTomiDigital" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionTomiDigital">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img style="width: 80%; height: 800px;" src="./img/infostudies/modulo 3.jpg" class="img-fluid" alt="informacion">
+                                        </div>
+                                        <div class="col" style="text-align: justify;"> 
+                                            
+                                           <h1>Toma de Apuntes Eficiente</h1>
+                                           <b> Estrategias para tomar apuntes de manera efectiva en clases y conferencias</b><br>
+                                            Para tomar apuntes para que sean más que solo apuntes sino técnicas de estudio, estos nos van ayudar a procesar información inclusive antes de tener que estudiarla para algún examen, la meta es llegar con una idea ya preconcebida y una estructura ya armada de la materia que tenemos que presentar, para lograr esto tienen que ser rápidos, eficientes y veraces
+                                            La clave para esto es la concentración para estar pendientes a lo que el docente dice mientras que ordenamos y jerarquizamos la información, o sea desmenuzar en el mismo momento en que la recibimos.<br>
+                                           <b><u>Te presentamos una de los métodos más reconocidos de este tipo:</u></b><br>
+                                            Método Cornell, excelente para grandes volúmenes de información y lo mejor es que es muy ordenado.
+                                            En este método la hoja se divide en tres, una columna a la izquierda, otra a la derecha y una parte al pie de página que vamos a usar luego de la clave.
+                                            •	En la columna de la derecha vamos a encontrar los apuntes propiamente que van a tener que ser pequeños ítems o gráficos muy sintéticos de lo que escuchamos en la clase.<br>
+                                            •	En la columna izquierda vamos a colocar palabras claves que tengan referencias con la columna derecha.<br>
+                                            •	Cuando ya llegue la hora de repasar en casa, realizarás un resumen de todo lo que quedó registrado en la carilla (ambas columnas).<br>
+                                            Así este método nos permite tener una visión espaciada de lo que dimos en clase y es beneficioso como ya mencionamos para temas extensos.<br>
+
+                                            <b><u>Esquemas y Resúmenes:</u></b> <br>
+                                            Cómo crear esquemas y resúmenes para sintetizar información<br>
+                                           <b>Esquema</b><br>
+                                            Un esquema es una representación gráfica de ideas y conceptos que establece relaciones jerárquicas, resaltando las ideas principales y secundarias para lograr una comprensión sintetizada del tema principal<br>
+                                            <u>Te daremos el paso a paso que debes seguir si quieres realizar un esquema correctamente:</u><br>
+                                            1.	Leer todo el material.<br>
+                                            2.	Subrayar las ideas clave.<br>
+                                            3.	Dividir el tema en secciones comprensibles.<br>
+                                            4.	Anotar las ideas centrales y secundarias en cada sección.<br>
+                                            5.	Jerarquizar las ideas.<br>
+                                            6.	Utilizar el esquema para explicar el tema.<br>
+                                            <b>Resumen</b><br>
+                                            Un resumen es una técnica donde se sintetizan las ideas clave de otro texto, ya sea escrito, hablado o audiovisual, utilizando las propias palabras del autor parafraseando. Es esencial que el resumen sea claro, preciso y objetivo en su presentación de la información esencial.<br>
+                                            Te daremos el paso a paso que debes seguir si quieres realizar un resumen correctamente:<br>
+                                            1.	Leer el texto completo: Comprende completamente el contenido del texto.<br>
+                                            2.	Dividir el texto en secciones: Organiza el texto en párrafos.<br>
+                                            3.	Escribe las partes destacadas: Toma las secciones más importantes del texto y escríbelas nuevamente con tus propias palabras.<br>
+                                            4.	Reescribe los párrafos: Expresa las ideas clave en tus propias frases y estilo.<br>
+                                            5.	Revisión final: Asegúrate de que tu resumen sea claro, preciso y reflexione fielmente las ideas principales del texto original. Verifique que no hayas omitido información relevante y que el resumen sea coherente.<br>
+                                            <b>Gestión de Notas Digitales:</b> <br>
+                                            <b>Herramientas y métodos para organizar notas digitales.</b><br>
+                                            Los apuntes digitales o en línea son notas que puedes crear y almacenar directamente en tu computadora, tablet o teléfono móvil utilizando herramientas digitales, o una aplicación de libreta digital. Estas notas se guardan en la aplicación y puedes modificarlas en cualquier momento.<br>
+                                            En la actualidad, son las aplicaciones móviles las protagonistas en las aulas, así que te estaremos presentando cuáles son algunas de estas apps que te pueden ayudar en tu día a día de estudio:<br>
+                                            •	My notes<br>
+                                            •	Con esta aplicación móvil puedes editar y crear notas, además de tener acceso rápido a ellas. También puedes tener agendadas fechas importantes.<br>
+                                            •	Rapid Notes<br>
+                                            •   Esta app móvil te facilita tomar notas o apuntes de forma rápida y fácil además de poder compartir las mismas en tus redes o por SMS.<br>
+                                            •	Evernote<br>
+                                            •	Esta aplicación sirve para tomar y gestionar apuntes, además para asignarles a los mismos recordatorios.<br>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="accordion" id="accordionVideosTomiDigital">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideosTomiDigital" aria-expanded="true" aria-controls="collapseVideosTomiDigital">
+                                Videos 
+                            </button>
+                            </h2>
+                            <div id="collapseVideosTomiDigital" class="accordion-collapse collapse" data-bs-parent="#accordionVideosTomiDigital">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/2iGNEak6PE4" title="Crear una presentacion en canva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+                
+                                    </div>
+                                </div>  
+                            </div>  
+                        </div>	  
+                        <div class="accordion" id="accordionEvaluacionTomiDigital">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionTomiDigital" aria-expanded="true" aria-controls="collapseEvaluacionTomiDigital">
+                                    Evaluaciones 
+                                </button>
+                            </h2>
+                            <div id="collapseEvaluacionTomiDigital" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionTomiDigital">
+                                <div class="accordion-body">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVub2tBx85VnRczXQq1p_yBPecfCwcitHHKKWc3sp2af850A/viewform?usp=sharing">Evaluación</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Técnicas de Memorización -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        Técnicas de Memorización
+                    </button>
+                </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionPadre">
+                    <div class="accordion-body">
+                        <div class="accordion" id="accordionInformacionPearDeck">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionPearDeck" aria-expanded="true" aria-controls="collapseInformacionPearDeck">
+                                Informacion
+                            </button>
+                            </h2>
+                            <div id="collapseInformacionPearDeck" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionPearDeck">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img style="width: 80%; height: 950px;" src="./img/infostudies/modulo 4.jpg" class="img-fluid" alt="informacion">
+                                        </div>
+                                        <div class="col" style="text-align: justify;"> 
+                                           
+                                            <h1>Técnicas de memoria para recordar información de manera efectiva.</h1>
+                                            <b>Mnemotecnia:</b> <br>
+                                            La mnemotecnia es una técnica intelectual para facilitar la memorización de datos específicos que se basa en crear una asociación o un vínculo entre la información que se desea retener y algún conocimiento previo para recordarlo con mayor facilidad. Este método puede utilizarse para fórmulas, nombres, fechas, números, etc.<br>
+                                            <u>Para poder utilizar la mnemotecnia en los estudios debemos seguir estos pasos:</u> <br>
+                                            <b>Asociar las ideas:</b> El primer paso será crear una lista con los conceptos que se desee aprender para posteriormente, vincularlos a otras palabras o crear una historia haciendo uso de ellos.<br>
+                                            <b>Sé creativo:</b> Al momento de crear una historia utilizando las palabras a memorizar, debes asegurarte de que esta tenga sentido. Intenta que cada una de las palabras te ayude a llegar a la siguiente. Así, podrás recordarlas de forma más organizada.<br>
+                                             <b>Utiliza palabras con las mismas iniciales de los elementos a que quieres aprender:</b> De esta forma, el proceso de asociación será mucho más sencillo.<br>
+                                            <b>Saca ventaja de la memoria auditiva:</b> Se sabe que la memoria auditiva contribuye de forma importante al momento de lograr un aprendizaje más eficiente.<br>
+                                            Siguiendo estos sencillos pasos, te será posible aplicar la mnemotecnia en tus estudios de forma muy eficiente. Así, sin duda podrás memorizar toda clase de conceptos muy fácilmente.<br>
+                                            
+                                            <b>Repeticiones Espaciadas:</b> <br>
+                                            Cómo programar repasos para mejorar la retención a largo plazo.
+                                            El método de aprendizaje espaciado es una técnica de memorización que implica estudiar un material específico con intervalos de tiempo que va aumentando entre cada sesión de estudio.
+                                            Ahora te explicaremos con tres pasos sencillos de cómo realizar la repetición espaciada:<br>
+                                            •	Repasando apuntes:<br>
+                                            Revisa tus notas dentro de las 24 horas posteriores a haberlas tomado. Trata de comprender el tema lo suficientemente bien como para poder hablar de él sin depender completamente de tus apuntes. Esto te ayudará a identificar posibles lagunas en tu comprensión o información adicional que podría ser útil para una comprensión completa.<br>
+                                            •	Organiza tus ideas y constrúyelas<br>
+                                            La "reconstrucción" mental implica organizar y sintetizar la información de un tema en tu mente como si estuvieras escribiendo un artículo sobre él. Luego, escribe lo que recuerdas para evaluar tu comprensión.<br>
+                                            •	Herramientas útiles<br>
+                                            Para este consejo, puedes elegir entre el uso de tarjetas físicas o aplicaciones como Notion.<br>
+                                            <b>Palabras Clave:</b><br>
+                                            Uso de palabras clave y acrónimos para recordar información.<br>
+                                            Implica en la recopilación de todas las palabras o frases que podrían estar relacionadas a lo que estés estudiando y también te ayuda en la rápida identificación de un tema en específico.<br>
+                                            <b>Cómo identificar una palabra clave:</b><br>
+                                            •	Partes o momentos concretos: Se refiere a las secciones específicas.<br>
+                                            •	Cualidades o rasgos: Son las características distintivas.<br>
+                                            •	Causas y consecuencias: Hace referencia a las razones o motivos que conducen a un evento (causas) ya los resultados o efectos que resultan de ese evento (consecuencias).<br>
+                                            •	Aspectos concretos y únicos de un epígrafe: Significa los detalles específicos y particulares de una sección o título, resaltando los elementos únicos que lo caracterizan dentro del contexto más amplio de algún texto.<br>
+
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="accordion" id="accordionVideosPearDeck">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideosPearDeck" aria-expanded="true" aria-controls="collapseVideosPearDeck">
+                                Videos 
+                            </button>
+                            </h2>
+                            <div id="collapseVideosPearDeck" class="accordion-collapse collapse" data-bs-parent="#accordionVideosPearDeck">
+                                <div class="accordion-body">
+                                    <iframe width="100%" height="404" src="https://www.youtube.com/embed/mJzOLghzUwA" title="Crear un post para red social en canva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>  
+                            </div>  
+                        </div>	  
+                        <div class="accordion" id="accordionEvaluacionPearDeck">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionPearDeck" aria-expanded="true" aria-controls="collapseEvaluacionPearDeck">
+                                    Evaluaciones 
+                                </button>
+                            </h2>
+                            <div id="collapseEvaluacionPearDeck" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionPearDeck">
+                                <div class="accordion-body">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_qtSd46QockXhZxwoZkB4waAWTta-OMmoiiUySbj0MFpRFw/viewform?usp=sharing">Evaluación</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  Lectura Activa y Comprensión -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        Lectura Activa y Comprensión
+                    </button>
+                </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionPadre">
+                    <div class="accordion-body">
+                        <div class="accordion" id="accordionInformacionAulaInvertida">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionAulaInvertida" aria-expanded="true" aria-controls="collapseInformacionAulaInvertida">
+                                Informacion
+                            </button>
+                            </h2>
+                            <div id="collapseInformacionAulaInvertida" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionAulaInvertida">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img style="width: 80%; height: 800px;" src="./img/infostudies/modulo 5.jpg 5.jpg" class="img-fluid" alt="informacion">
+                                        </div>
+                                        <div class="col" style="text-align: justify;"> 
+                                            <h1>Lectura Activa</h1>
+                                            <b>Estrategias para involucrarse más activamente en la lectura.</b> <br>
+                                            La lectura activa es un enfoque de lectura que va más allá de la simple lectura de un texto. Requiere que leas y reflexiones críticamente sobre el contenido para fortalecer la comprensión<br>
+                                            <u>Aquí un paso a paso de cómo realizar una correcta lectura activa:</u><br>
+                                            1.	Marcar las ideas clave en el texto para una revisión rápida.<br>
+                                            2.	Formular preguntas para profundizar en la comprensión: ¿Qué sucedió? ¿Por qué es importante?<br>
+                                            3.	Tomar notas en los márgenes para aclarar el contenido.<br>
+                                            4.	Definir palabras desconocidas.<br>
+                                            5.	Resumir la información con tus propias palabras.<br>
+                                            6.	Crear mapas o esquemas para facilitar la comprensión y retención.<br>
+                                            <b>Mapas Mentales:</b><br>
+                                            Utilizar mapas mentales para visualizar y organizar información.<br>
+                                            Un mapa mental es una herramienta de aprendizaje que simplifica la comprensión al representar ideas de manera esquemática, mostrando cómo conceptos secundarios se conectan con el tema principal.<br>
+                                            <b>Te presentamos el modo de realizar un correcto mapa mental:</b><br>
+                                            1.	Coloque la idea central en el centro de la hoja, utilizando palabras o dibujos<br>
+                                            2.	Crea simplificaciones para los conceptos importantes que deriven del tema central.<br>
+                                            3.	Organiza las ideas de manera jerárquica.<br>
+                                            4.	Utiliza líneas para conectar y mostrar las relaciones entre los conceptos.<br>
+                                            5.	Resalta las ideas importantes mediante figuras. Principio del formulario<br>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="accordion" id="accordionVideosAulaInvertida">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideosAulaInvertida" aria-expanded="true" aria-controls="collapseVideosAulaInvertida">
+                                Videos 
+                            </button>
+                            </h2>
+                            <div id="collapseVideosAulaInvertida" class="accordion-collapse collapse" data-bs-parent="#accordionVideosAulaInvertida">
+                                <div class="accordion-body">
+                                    <iframe width="100%" height="404" src="https://www.youtube.com/embed/mJzOLghzUwA" title="Crear un video en canva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>  
+                            </div>  
+                        </div>	  
+                        <div class="accordion" id="accordionEvaluacionAulaInvertida">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionAulaInvertida" aria-expanded="true" aria-controls="collapseEvaluacionAulaInvertida">
+                                    Evaluaciones 
+                                </button>
+                            </h2>
+                            <div id="collapseEvaluacionAulaInvertida" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionAulaInvertida">
+                                <div class="accordion-body">
+                    
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdu-PBsJAi09av6EIfZXSWP7ogDXIYm7UdwlUrJZD7sqT3JnQ/viewform?usp=sharing">Evaluación</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Técnicas de repaso -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+								Técnicas de repaso
+							</button>
+						</h2>
+					  	<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionPadre">
+							<div class="accordion-body">
+								<div class="accordion" id="accordionInformacionGamificacion">
+									<h2 class="accordion-header">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformacionGamificacion" aria-expanded="true" aria-controls="collapseInformacionGamificacion">
+										Informacion
+									</button>
+									</h2>
+									<div id="collapseInformacionGamificacion" class="accordion-collapse collapse" data-bs-parent="#accordionInformacionGamificacion">
+										<div class="accordion-body">
+											<div class="row">
+												<div class="col">
+													<img style="width: 80%; height: 800px;" src="./img/infostudies/modulo 6.jpg" class="img-fluid" alt="informacion">
+												</div>
+												<div class="col" style="text-align: justify;"> 
+													<h1>Técnicas de repaso</h1>
+													<b>Cómo repasar de manera efectiva para los exámenes.</b><br>
+													La planificación antes de un examen es fundamental para alcanzar el éxito académico. Implica una preparación minuciosa y completa que abarca el estudio adecuado y una revisión exhaustiva de todo el contenido relevante antes de enfrentar la evaluación. Incluye la dedicación de tiempo para repasar tus apuntes de clase, el material del libro de texto y las tareas asignadas. Además, se considera esencial tomar notas detalladas y aplicar estrategias de estudio efectivas, como la síntesis de información y la creación de representaciones visuales, como mapas conceptuales.<br>
+													<b>Estrategias de Resolución de Problemas</b>: <br>
+													Cómo abordar preguntas de examen y problemas complejos.<br>
+													•	Presta Atención<br>
+													Uno de los principales motivos por los cuales los estudiantes pierden puntos en los exámenes es la falta de atención al leer las preguntas. Asegúrate de leer con cuidado y comprender completamente cada pregunta.<br>
+													•	Resolución de problemas<br>
+													En ciertos exámenes, es posible que te enfrentes a problemas desafiantes. Para enfrentarlos con éxito, emplea estrategias específicas de resolución de problemas, como la identificación de palabras clave.<br>
+													•	Mantener la calma<br>
+													Por último, pero igualmente esencial, es fundamental mantener la calma durante el examen. El estrés y la ansiedad pueden perjudicarte a la hora de pensar y responder de manera correcta a las preguntas del examen. Tómate tu tiempo y respira profundamente, recuerda que has estudiado y te has preparado para el examen. No dejes que los nervios tengan un impacto negativo en tu desempeño.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>  
+								<div class="accordion" id="accordionVideosGamificacion">
+									<h2 class="accordion-header">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideosGamificacion" aria-expanded="true" aria-controls="collapseVideosGamificacion">
+										Videos 
+									</button>
+									</h2>
+									<div id="collapseVideosGamificacion" class="accordion-collapse collapse" data-bs-parent="#accordionVideosGamificacion">
+										<div class="accordion-body">
+											<div class="row">
+												<div class="col">
+													<iframe width="100%" height="350" src="https://www.youtube.com/embed/KocAhjNyD_Y" title="GAMIFICACIÓN: Beneficios y Consejos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+												</div>
+											</div>
+										</div>  
+									</div>  
+								</div>	  
+								<div class="accordion" id="accordionEvaluacionGamificacion">
+									<h2 class="accordion-header">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEvaluacionGamificacion" aria-expanded="true" aria-controls="collapseEvaluacionGamificacion">
+											Evaluaciones 
+										</button>
+									</h2>
+									<div id="collapseEvaluacionGamificacion" class="accordion-collapse collapse" data-bs-parent="#accordionEvaluacionGamificacion">
+										<div class="accordion-body">
+										<strong>
+											<a href="https://docs.google.com/forms/d/e/1FAIpQLSf3m5_9whAqGmlTJS2VX3W1UgBJxZudKCbDhXy3LzQ2NAZ8UA/viewform?usp=sharing">Evaluación</a>
+										</div>
+									</div>  
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
     </main>
     <footer>
         <div class="contenedor-foot">
             <div class="contain-foot">
-                <h4>Phone</h4>
+                <h4>Telefono</h4>
                 <p>0917481234</p>
             </div>
             <div class="contain-foot">
                 <h4>Email</h4>
-                <p>nombre@gmail.com</p>
+                <p>waltcourses@gmail.com</p>
             </div>
             <div class="contain-foot">
-                <h4>Location</h4>
-                <p>La casa de tu abuela </p>
+                <h4>Direccion</h4>
+                <p>Iturbe Casi Eligio Ayala N 248, Asuncion, Asunción 1595 </p>
             </div>
         </div>
-        <h2 class="titulo-final">&copy; Lucas Diseños | Lucas Aguilar</h2>
+        <h2 class="titulo-final">&copy; 3ro 3ra BTI</h2>
     </footer>
 </body>
 </html>
