@@ -177,15 +177,6 @@ header .cabezera{
     border-radius: 10px;
 }
 
-.courses-container .cards .info .price::before{
-    font-size: 18px;
-    font-weight: normal;
-}
-
-
-
-
-
 @media (max-width: 850px){
     .courses-container{
         grid-template-columns: 1fr 1fr;
